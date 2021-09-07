@@ -1,0 +1,331 @@
+@import url("https://fonts.googleapis.com/css2?family=Lilita+One&family=Passion+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Signika:wght@700&display=swap");
+
+body {
+  margin: 20px 50px;
+  background-color: #303e47;
+}
+
+h1 {
+  letter-spacing: 1.5px;
+}
+
+h2,
+h3,
+p,
+div {
+  color: white;
+  font-family: "Signika", sans-serif;
+}
+
+strong {
+  text-decoration: underline;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 100px;
+}
+.title h1 {
+  margin-left: 10px;
+  margin: 2px;
+  font-size: 88px;
+  font-weight: 500;
+  color: #e5626a;
+  font-family: "Lilita One", cursive;
+}
+
+.title h3 {
+  font-size: 30px;
+  margin: 2px;
+  font-weight: 300;
+  color: white;
+  font-family: "Lilita One", cursive;
+}
+
+.logo-b {
+  border: 3px solid whitesmoke;
+  height: 90px;
+  width: 90px;
+  border-radius: 50%;
+  padding: 3px;
+  top: 20%;
+  right: 20%;
+  position: relative;
+}
+
+.logo {
+  background-color: #00b3e4;
+  height: 90px;
+  width: 90px;
+  border-radius: 50%;
+}
+
+.w-icon {
+  position: absolute;
+  top: 18px;
+  left: 18px;
+  color: #273f4b;
+}
+
+.title {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: center;
+}
+
+/*  ------------- Grid body ---------------- */
+
+.grid-body {
+  grid-row-gap: 50px;
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: center;
+}
+
+/* ---------- ROW - 1   &   box 1 && 2  ------------------ */
+
+.box-1 {
+  background-color: #ff9e1b;
+  height: 400px;
+  width: 400px;
+  text-align: center;
+}
+
+.box-1-t > i {
+  margin: 48px 0 15px;
+  color: #343d46;
+}
+.fa-red {
+  color: #e5626a !important;
+}
+
+.box-1-para > h1,
+h2,
+p {
+  margin: 3px;
+  color: #fffbf9;
+  font-weight: 900;
+  /* font-family: "Signika", sans-serif; */
+}
+.box-1-para > h1 {
+  font-size: 48px;
+}
+
+.box-1-para > h2 {
+  font-size: 28px;
+}
+
+/*  ------------------------ Box 2 ---------------------------  */
+
+.box-2 {
+  background-color: #00b2e2;
+  text-align: center;
+  height: 400px;
+  width: 400px;
+}
+
+#bx2-gap {
+  margin-top: 48px;
+}
+
+.box-2 h1,
+h2,
+p {
+  margin: 5px;
+  color: #fffbf9;
+  font-weight: 900;
+  /* font-family: "Signika", sans-serif; */
+}
+.box-2 h1,
+h2 {
+  font-size: 48px;
+  margin: 3px;
+
+  /* font-family: "Signika", sans-serif; */
+}
+.box-2 h2 {
+  font-size: 28px;
+}
+
+/* ---------- ROW - 2   &   box 3  ------------------ */
+
+.box-3 {
+  height: 300px;
+  width: 800px;
+  background-color: #ff5959;
+  grid-area: 2/1/3/3;
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.bx3-1 {
+  width: 400px;
+  height: 150px;
+  color: white;
+  font-weight: 900;
+}
+.bx3-1 > h1 {
+  width: 80%;
+  margin: 50px auto 0 auto;
+}
+
+.bx3-2 {
+  width: 400px;
+  height: 150px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: space-evenly;
+}
+
+.bx3-icons {
+  margin: auto;
+  color: #273f4b;
+}
+.bx3-icons > h3 {
+  color: white;
+  font-weight: bold;
+}
+
+.bx3-3 {
+  width: 100%;
+  height: 150px;
+  grid-area: 2/1/3/3;
+}
+
+.bx3-3 > div {
+  width: 90%;
+  margin: 40px auto 40px auto;
+}
+
+.bx3-3 p {
+  font-weight: bold;
+  font-size: 20px;
+}
+.bx3-3 strong {
+  font-size: 23px;
+}
+
+/* ---------- ROW - 3   &   box 4  ------------------ */
+
+.box-4 {
+  height: 400px;
+  width: 800px;
+  background-color: #00b2e2;
+  grid-area: 3/1/4/3;
+}
+
+.bx4 {
+  width: 80%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.bx4-1 {
+  grid-area: 1/1/2/3;
+}
+
+.bx4-1 i {
+  color: #303e47;
+}
+.bx4__ {
+  margin: 40px 30px auto auto;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.bx4__ strong {
+  font-size: 22px;
+}
+
+/* ---------- ROW - 4   &   box 5 and 6  ------------------ */
+
+.box-5 {
+  height: 400px;
+  width: 400px;
+  background-color: #ff5959;
+  text-align: center;
+  line-height: 30px;
+}
+.box-5 h1 {
+  font-size: 40px;
+  font-family: "Lilita One", cursive;
+}
+.box-5 i {
+  color: #ff9e1b;
+  margin: 20px;
+}
+/*  ------------- Box - 6 ----------------------- */
+.box-6 {
+  height: 400px;
+  width: 400px;
+  background-color: #ff9e1b;
+  text-align: center;
+  line-height: 30px;
+}
+
+.box-6 i {
+  margin-top: 20px;
+}
+.box-6 h1 {
+  font-size: 40px;
+  font-family: "Lilita One", cursive;
+}
+
+/* ---------- ROW - 5  &   box 7  ------------------ */
+
+.box-7 {
+  height: 200px;
+  width: 800px;
+  background-color: #00b2e2;
+  grid-area: 5/1/6/3;
+}
+.box-7 h1 {
+  font-size: 40px;
+  line-height: 40px;
+}
+.box-tilt {
+  width: 80%;
+  margin: 20px auto;
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: space-between;
+}
+
+/* ---------- ROW - 6  &   box 8  ------------------ */
+
+.box-8 {
+  height: 200px;
+  width: 800px;
+  background-color: #ff9e1b;
+  grid-area: 6/1/7/3;
+}
+
+/* ---------- ROW - 7  &   Box 9 and 10  ------------------ */
+
+.box-9 {
+  height: 400px;
+  width: 400px;
+  background-color: #00b2e2;
+  text-align: center;
+  font-weight: bold;
+  line-height: 40px;
+}
+.box-9 h1 {
+  font-size: 30px;
+  font-family: "Lilita One", cursive;
+}
+
+/*  ----------- Box 10 ----------------- */
+.box-10 {
+  height: 400px;
+  width: 400px;
+  background-color: #ff5959;
+  text-align: center;
+}
+
+.box-10 h3 {
+  line-height: 50px;
+}
